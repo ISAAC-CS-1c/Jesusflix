@@ -1,0 +1,52 @@
+body {
+ color:white;
+ background: #160e0e;
+ margin: 0px;
+ 
+}
+ 
+header {
+    border-bottom: solid 2px rgb(159, 245, 60);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(159, 245, 60);
+    font-family: "Itim", cursive;
+}
+.chamada {
+background: rgb(159, 245, 60);
+padding-bottom: 80;
+padding-top: 80;
+display: flex;
+font-size: 40px;
+justify-content: center;
+font-family: "Bebas Neue", sans-serif;
+ }
+
+ .Subtítulo {
+  margin-right: 5%;
+
+ }
+
+ img{
+  height: 200px;
+
+ }
+
+ .Interação{
+  display: flex;
+  overflow-x: auto;
+    gap: 10px;
+ }
+.Sub2{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.Interação img {
+    opacity: 0.5;
+    height: 200px
+
+}
+.Interação img:hover {
+    opacity: 1.0;
+}
